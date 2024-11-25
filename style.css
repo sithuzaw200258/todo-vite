@@ -1,0 +1,17 @@
+@import url("./node_modules/animate.css/animate.min.css");
+@import url("./node_modules/sweetalert2/dist/sweetalert2.min.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-confirm{
+    @apply bg-violet-600 !important;
+}
+
+.swal2-cancel{
+    @apply bg-slate-100 text-stone-950 !important;
+}
+
+.swal2-html-container{
+    @apply pt-0 !important;
+}
